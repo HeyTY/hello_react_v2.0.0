@@ -3,8 +3,14 @@ const React 		= require("react");
 var About = (props) => {
 	return (
 		<div>
-			<h3>About Component</h3>
-			<p>Welcome to the about page</p>
+			<h1>About</h1>
+			<p>This weather application was built with:</p>
+			<ul>
+				<li>React</li>
+				<li>Node</li>
+				<li>Foundation Framework</li>
+				<li>Open Weather Map API</li>
+			</ul>
 		</div>
 	)
 };
